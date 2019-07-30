@@ -1,0 +1,104 @@
+/* https://files.gamebanana.com/img/ss/maps/5b45910265a78.jpg */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+* {margin: 0;padding: 0;font-family: 'Ubuntu', sans-serif;font-size: 36px;color: #222; text-shadow: 2px 2px 3px #444 }
+
+body {
+  background-image: url('img/baldi_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.calc_form {
+  margin: 0 auto;
+  max-width: 70%;
+  text-align: center;
+  padding-top: 20px;
+}
+.calc_form h1 {font-size: 64px;}
+.question_section {
+  padding: 20px 0 20px;
+}
+.question_section p {
+  font-size: 60px;
+  
+}
+.ask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#a,#b {
+  font-family: 'Lora', serif;
+  font-size: 200px;
+  color: #f33;
+  padding: 0 50px;
+}
+.x {
+  font-family: 'Lora', serif;
+  font-size: 100px;
+  color: green
+}
+#num1, #check_btn {
+  display: block;
+  margin: 0 auto 20px;
+}
+.calc_form > input {
+  width: 200px;
+  text-align: center;
+  text-shadow: none;
+  outline: none;
+  padding-left:20px;
+  padding-right:20px;
+  margin-bottom:20px;
+  background: rgba(255,255,255,.2);
+  border: none;
+  border: 2px solid red ;
+  border-radius: 10%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; 
+  display:block;
+  font-family: 'Open Sans', sans-serif;
+  font-size:80px;
+  font-weight: 300;    
+  color:#222;
+  
+}
+.calc_form > input::-webkit-input-placeholder {
+  font-size: 20px;
+  color: black;
+  opacity: 1;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+.calc_form > input:focus::-webkit-input-placeholder {
+  opacity: 0; transition: opacity 0.3s ease;
+}
+.calc_form > button {
+  box-sizing: border-box;
+  text-align: center;box-sizing: border-box;
+  text-shadow: none;
+  outline: none;
+  background: none;
+  border: none;
+  text-transform: uppercase;
+  color: #222;
+  text-shadow: 2px 2px 3px #444;
+  line-height: 70px;
+  font-size: 50px;
+  transition: .3s;
+}
+.calc_form > button:hover {
+  color: green;
+  font-size: 72px;
+  transition: .3s;
+}
+.rightAsn {
+  color: green;
+  font-size: 76px;
+  line-height: 1.3;
+}
+.wrongAns {
+  color: red;
+  
+}
